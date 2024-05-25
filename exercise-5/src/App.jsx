@@ -1,6 +1,6 @@
 import { CLOTHESDATA } from "./data";
 import Card from "./components/Card";
-import "./index.css";
+// import "./index.css";
 function App() {
   return (
     <>
