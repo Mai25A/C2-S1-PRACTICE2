@@ -12,6 +12,7 @@ export const myData = {
   title: "PN Trainer",
 };
 
+const userData = [vinhData,myData];
 // TODO Edit the User component code to be able to display DIFFERENT users !
 export function User() {
   return (
@@ -28,7 +29,7 @@ function App() {
       <h1>PNV React Team !!</h1>
       <p>Here are some PNV React masters, do you know them?</p>
       <User /> {/* This line needs some changes*/}
-      <User /> {/* This line needs some changes*/}
+      {}
     </div>
   );
 }
